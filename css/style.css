@@ -2,33 +2,62 @@ html, body {
     height:100%;
   }
 
+ .layer{
+    background:rgba(0,0,0,0.3);
+    width:100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+ }
+
   .bgPic{
     background: url("weather.jpg");
     background-size: cover;
     background-position: center;
+    position: relative;
     width: 100%;
     height: 100%;
 
   }
 
+  .lead{
+    font-size: 99%;
+  }
+
   .fStyle{
-    font-family: candara;
+    margin-top: 60px;
+    /*font-size: 40px;*/
     /*color: white;*/
+  }
+
+  .iStyle{
+    margin-top: 180px;
+  }
+
+  .pStyle{
+    font-family: candara;
+    /*margin-top: 10px; */
   }
 
   .center{
     text-align: center;
   }
 
-  .pStyle{
+  .aStyle{
     margin-top: 20px;
   }
 
-  .sPos{
-    margin-top: 150px;
+  .white{
+    color: white;
   }
 
-  .alert{
-    margin-top: 60px;
-    display: none;
-  }
+.wrapper{
+  background-color: white;
+  height: 280px;
+  width: 640px;
+  margin-top: 120px;
+  margin-left: 10px;
+  border-radius: 8px;
+  opacity: 0.7;
+}
