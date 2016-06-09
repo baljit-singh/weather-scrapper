@@ -1,0 +1,34 @@
+html, body {
+    height:100%;
+  }
+
+  .bgPic{
+    background: url("weather.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+
+  }
+
+  .fStyle{
+    font-family: candara;
+    /*color: white;*/
+  }
+
+  .center{
+    text-align: center;
+  }
+
+  .pStyle{
+    margin-top: 20px;
+  }
+
+  .sPos{
+    margin-top: 150px;
+  }
+
+  .alert{
+    margin-top: 60px;
+    display: none;
+  }
